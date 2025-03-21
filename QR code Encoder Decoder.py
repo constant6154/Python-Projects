@@ -2,7 +2,7 @@ import qrcode
 import os
 
 data = 'Porashuna bhalo lagena'
-save_path = 'E:\QR\mywr.png'
+save_path = 'E:\QR\myqr.png'
 
 # Ensure the directory exists
 os.makedirs(os.path.dirname(save_path), exist_ok=True)
