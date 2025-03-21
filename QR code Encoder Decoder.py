@@ -4,7 +4,7 @@ import os
 data = 'Porashuna bhalo lagena'
 save_path = 'E:\QR\myqr.png'
 
-# Ensure the directory exists
+#directory exists
 os.makedirs(os.path.dirname(save_path), exist_ok=True)
 
 # Generate QR code
